@@ -85,7 +85,7 @@ html {
 @media (max-width: 620px) {
   .list {
     position: fixed;
-    top: 1rem;
+    top: -50px;
     width: 80%;
     max-width: 540px;
     background: #fff;
