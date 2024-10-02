@@ -1,0 +1,99 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(120deg, #302ca0c2, #802772);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  position: fixed;
+  top: 1rem;
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px 30px 70px;
+  margin-bottom: 20rem;
+  margin-top: 5rem;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.head {
+  font-size: large;
+  font-weight: 700;
+  font-size: 2rem;
+  color: rgb(0, 0, 138);
+}
+
+.Input-Box {
+  width: 80%;
+  padding: 15px;
+  background-color: rgba(128, 128, 128, 0.19);
+  border: none;
+  border-radius: 20px;
+}
+
+.add {
+  font-family: "Poppins", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  width: 18%;
+  padding: 11px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(238, 82, 10);
+  cursor: pointer;
+}
+
+.pressed {
+  transform: scale(1.01);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.task {
+  display: flex;
+  gap: 1rem;
+  font-size: 14pt;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task p {
+  display: flex;
+  gap: 1rem;
+}
+
+.tick {
+  cursor: pointer;
+}
+
+@media (max-width: 620px) {
+  .list {
+    position: fixed;
+    top: 1rem;
+    width: 80%;
+    max-width: 540px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px 30px 70px;
+    margin-bottom: 20rem;
+    margin-top: 5rem;
+    max-height: 70vh;
+    overflow-y: auto; 
+  }
+}
